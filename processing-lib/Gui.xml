@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gui</name>
+    </assembly>
+    <members>
+        <member name="T:Gui.Window1">
+            <summary>
+            Interaktionslogik für Window1.xaml
+            </summary>
+            <summary>
+            Window1
+            </summary>
+        </member>
+        <member name="M:Gui.Window1.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Gui.App">
+            <summary>
+            Interaktionslogik für "App.xaml"
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Gui.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Gui.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <!-- Ungültiger XML-Kommentar wurde für den Member "T:Gui.MainWindow" ignoriert -->
+        <member name="M:Gui.MainWindow.OpenSvgFile(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens directory for SVG file. Selected file is put in textbox.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.OpenFolder1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens a folder.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.OpenFolder2(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens a folder.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.OpenFolder3(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens a folder.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.OpenFolder4(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens a folder.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.OpenFolder5(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens a folder.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.OpenFolder6(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens a folder.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.OpenFolder7(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens a folder.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.OpenOverlay(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Opens a folder.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.CloseButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the CloseButton control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.ProcessButton_PreviewMouseDown(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the MouseDown event of the ProcessButton control in order to Disable the "Ready" in the Status bar. 
+            Is separate from ProcessButtonClick, because the Click event freezes the GUI. 
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>       
+        </member>
+        <member name="M:Gui.MainWindow.ProcessButton_MouseLeave(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the MouseLeave event of the ProcessButton control. Enables "Ready" Texblock in case the Button was pressed but not released.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Gui.MainWindow.ProcessButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the ProcessButton control. Performs processing tasks according to input given in the GUI.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+            
+        </member>
+        <member name="M:Gui.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Gui.Properties.Resources">
+            <summary>
+              Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+            </summary>
+        </member>
+        <member name="P:Gui.Properties.Resources.ResourceManager">
+            <summary>
+              Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+            </summary>
+        </member>
+        <member name="P:Gui.Properties.Resources.Culture">
+            <summary>
+              Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+              Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+            </summary>
+        </member>
+        <member name="T:WPF_Fraunhofer_GUI.ComboBox_Ext">
+            <summary>
+            Interaktionslogik für ComboBox_Extended.xaml
+            </summary>
+            <summary>
+            ComboBox_Ext
+            </summary>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.ComboBox_Ext.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPF_Fraunhofer_GUI.CustomMessageBox">
+            <summary>
+            Displays a message box.
+            </summary>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.Show(System.String)">
+            <summary>
+            Displays a message box that has a message and returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.Show(System.String,System.String)">
+            <summary>
+            Displays a message box that has a message and a title bar caption; and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.Show(System.Windows.Window,System.String)">
+            <summary>
+            Displays a message box in front of the specified window. The message box displays a message and returns a result.
+            </summary>
+            <param name="owner">A System.Windows.Window that represents the owner window of the message box.</param>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.Show(System.Windows.Window,System.String,System.String)">
+            <summary>
+            Displays a message box in front of the specified window. The message box displays a message and title bar caption; and it returns a result.
+            </summary>
+            <param name="owner">A System.Windows.Window that represents the owner window of the message box.</param>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton)">
+            <summary>
+            Displays a message box that has a message, title bar caption, and button; and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <param name="button">A System.Windows.MessageBoxButton value that specifies which button or buttons to display.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)">
+            <summary>
+            Displays a message box that has a message, title bar caption, button, and icon; and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <param name="button">A System.Windows.MessageBoxButton value that specifies which button or buttons to display.</param>
+            <param name="icon">A System.Windows.MessageBoxImage value that specifies the icon to display.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.ShowOK(System.String,System.String,System.String)">
+            <summary>
+            Displays a message box that has a message, title bar caption, and OK button with a custom System.String value for the button's text; and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <param name="okButtonText">A System.String that specifies the text to display within the OK button.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.ShowOK(System.String,System.String,System.String,System.Windows.MessageBoxImage)">
+            <summary>
+            Displays a message box that has a message, title bar caption, OK button with a custom System.String value for the button's text, and icon; and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <param name="okButtonText">A System.String that specifies the text to display within the OK button.</param>
+            <param name="icon">A System.Windows.MessageBoxImage value that specifies the icon to display.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.ShowOKCancel(System.String,System.String,System.String,System.String)">
+            <summary>
+            Displays a message box that has a message, caption, and OK/Cancel buttons with custom System.String values for the buttons' text;
+            and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <param name="okButtonText">A System.String that specifies the text to display within the OK button.</param>
+            <param name="cancelButtonText">A System.String that specifies the text to display within the Cancel button.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.ShowOKCancel(System.String,System.String,System.String,System.String,System.Windows.MessageBoxImage)">
+            <summary>
+            Displays a message box that has a message, caption, OK/Cancel buttons with custom System.String values for the buttons' text, and icon;
+            and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <param name="okButtonText">A System.String that specifies the text to display within the OK button.</param>
+            <param name="cancelButtonText">A System.String that specifies the text to display within the Cancel button.</param>
+            <param name="icon">A System.Windows.MessageBoxImage value that specifies the icon to display.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.ShowYesNo(System.String,System.String,System.String,System.String)">
+            <summary>
+            Displays a message box that has a message, caption, and Yes/No buttons with custom System.String values for the buttons' text;
+            and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <param name="yesButtonText">A System.String that specifies the text to display within the Yes button.</param>
+            <param name="noButtonText">A System.String that specifies the text to display within the No button.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.ShowYesNo(System.String,System.String,System.String,System.String,System.Windows.MessageBoxImage)">
+            <summary>
+            Displays a message box that has a message, caption, Yes/No buttons with custom System.String values for the buttons' text, and icon;
+            and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <param name="yesButtonText">A System.String that specifies the text to display within the Yes button.</param>
+            <param name="noButtonText">A System.String that specifies the text to display within the No button.</param>
+            <param name="icon">A System.Windows.MessageBoxImage value that specifies the icon to display.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.ShowYesNoCancel(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Displays a message box that has a message, caption, and Yes/No/Cancel buttons with custom System.String values for the buttons' text;
+            and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <param name="yesButtonText">A System.String that specifies the text to display within the Yes button.</param>
+            <param name="noButtonText">A System.String that specifies the text to display within the No button.</param>
+            <param name="cancelButtonText">A System.String that specifies the text to display within the Cancel button.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBox.ShowYesNoCancel(System.String,System.String,System.String,System.String,System.String,System.Windows.MessageBoxImage)">
+            <summary>
+            Displays a message box that has a message, caption, Yes/No/Cancel buttons with custom System.String values for the buttons' text, and icon;
+            and that returns a result.
+            </summary>
+            <param name="messageBoxText">A System.String that specifies the text to display.</param>
+            <param name="caption">A System.String that specifies the title bar caption to display.</param>
+            <param name="yesButtonText">A System.String that specifies the text to display within the Yes button.</param>
+            <param name="noButtonText">A System.String that specifies the text to display within the No button.</param>
+            <param name="cancelButtonText">A System.String that specifies the text to display within the Cancel button.</param>
+            <param name="icon">A System.Windows.MessageBoxImage value that specifies the icon to display.</param>
+            <returns>A System.Windows.MessageBoxResult value that specifies which message box button is clicked by the user.</returns>
+        </member>
+        <member name="T:WPF_Fraunhofer_GUI.CustomMessageBoxWindow">
+            <summary>
+            Interaction logic for ModalDialog.xaml
+            </summary>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CustomMessageBoxWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPF_Fraunhofer_GUI.Util">
+            <summary>
+            TODO: Update summary.
+            </summary>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.Util.TryAddKeyboardAccellerator(System.String)">
+            <summary>
+            Keyboard Accellerators are used in Windows to allow easy shortcuts to controls like Buttons and 
+            MenuItems. These allow users to press the Alt key, and a shortcut key will be highlighted on the 
+            control. If the user presses that key, that control will be activated.
+            This method checks a string if it contains a keyboard accellerator. If it doesn't, it adds one to the
+            beginning of the string. If there are two strings with the same accellerator, Windows handles it.
+            The keyboard accellerator character for WPF is underscore (_). It will not be visible.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WPF_Fraunhofer_GUI.CircularProgressBar">
+            <summary>
+            CircularProgressBar
+            </summary>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.CircularProgressBar.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPF_Fraunhofer_GUI.SearchBoxExt">
+            <summary>
+            Interaktionslogik für SearchBoxExt.xaml
+            </summary>
+            <summary>
+            SearchBoxExt
+            </summary>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.SearchBoxExt.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPF_Fraunhofer_GUI.TimePicker">
+            <summary>
+            Interaktionslogik für TimePicker.xaml
+            </summary>
+            <summary>
+            TimePicker
+            </summary>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.TimePicker.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPF_Fraunhofer_GUI.Window_Styles.Fraunhofer.WindowStyle">
+            <summary>
+            WindowStyle
+            </summary>
+        </member>
+        <member name="M:WPF_Fraunhofer_GUI.Window_Styles.Fraunhofer.WindowStyle.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
